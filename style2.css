@@ -1,0 +1,291 @@
+
+@font-face{
+  font-family: 'aniron';
+  src: url('anicb___.ttf');
+  src: url('anicm___.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{ 
+  font-family: 'partybusiness';
+  src: url('partybusiness.ttf');
+}
+
+@font-face{
+  font-family: 'annatar';
+  src: url('tngan.ttf');
+  src : url('tnganb.ttf');
+  src: url('tnganbi.ttf');
+  src: url('tngani.ttf')
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+h2 {
+  font-family: 'aniron';
+  font-size: 20px !important;
+}
+p, a{
+  font-family: 'partybusiness';
+  font-size: 30px;
+}
+hr{
+  background-color: orangered;
+}
+.fantasy{
+  font-family: 'annatar';
+  color:orangered;
+}
+/**************************************************NAVBAR************************************/
+.colorPerso{
+    background-color:orangered;
+    padding: 0px;
+}
+.navbar-brand{
+	color: white ;
+  margin:auto; 
+}
+.color-onglet{
+	color: white !important;
+  margin-top: 0px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+li a:hover {
+  color: white !important;
+  text-decoration: underline !important;
+
+ 
+}
+.color-onglet:hover{
+  color: white !important;
+
+}
+.navbar-brand{
+  display: flex;
+  align-items: center;
+  width: px;
+}
+/**************************************************NAVBAR************************************/
+
+
+/**************************************************CAROUSEL************************************/
+
+
+.carousel-inner img {
+      width: 100%;
+      height: 380px;
+}
+img{
+  margin-bottom: 30px;
+}
+.carousel-item {
+  position: relative;
+}
+.carousel-item >p{
+  position: absolute;
+  top:30%;
+  left: 30%;
+  color: white;
+  font-size: 40px; 
+}
+/**************************************************CAROUSEL************************************/
+
+
+/**************************************************PILLS************************************/
+
+.perso{
+  color:#424242;
+}
+.perso:hover{
+  text-decoration: underline !important;
+  color: orangered !important;
+}
+
+/**************************************************PILLS************************************/
+
+/**************************************************CARDS************************************/
+.box-img{
+	display: flex;
+	justify-content: space-around;
+  margin-top: 10px;
+}
+.card-title{
+  margin-left: 15px;
+  line-height: 5px;
+}
+.description{
+  margin-left: 5px;
+}
+.card-img-top{
+  opacity:0.5;
+}
+.card:hover .card-img-top{
+  opacity:1;
+}
+.card:hover .text-center{
+  visibility: hidden;
+}
+
+strong{
+  color:orange;
+}
+.card-text{
+  background-color:white;
+  padding: 5px;
+  color:#424242;
+  border-radius: 10px;
+}
+.card{
+  position:relative;
+  width: 300px;
+}
+.title-img{ 
+  position:absolute;
+  color:white;
+  top: 45%;
+  left: 25%;
+  font-size:40px; 
+}
+.card:hover .title-img{
+  position: absolute;
+  font-size: 30px;
+  top: 60%; 
+  left: 30%;
+}
+.img-fluid{
+  background-color: black;
+}
+/**************************************************CARDS************************************/
+
+#reward{
+  background-color:black;
+}
+#reward >h2{
+  color:white;
+}
+.text-reward{
+  color:white;
+}
+.button-color{
+  background-color : white !important;
+  margin-bottom: 20px;
+  padding : 20px !important;
+  color: orangered !important;
+  font-size: 20px !important;;
+}
+.button-color:hover{
+  background-color: black !important;;
+}
+/**************************************************MEDIAOBJECT************************************/
+
+.media-box{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.media-body{
+  width: auto;
+}
+.mt-0{
+  font-family: 'aniron';
+  color: orangered;
+}
+a{
+  color: black !important;
+}
+
+/**************************************************MEDIAOBJECT************************************/
+
+
+
+/**************************************************RING************************************/
+.card-ring{
+  width: 100%;
+  margin-bottom:15px;
+}
+.tab{
+  border: 1px solid #E0E0E0;
+}
+table{
+  width: 80%;
+  text-align: center;  
+  
+}
+.tab>p{
+  margin
+  margin-bottom:10px;
+}
+td,th{
+  border-bottom: solid 1px gray;
+  padding: 5px;
+  width: 50%;
+  font-family: 'partybusiness';
+  font-size: 25px;
+  color#424242;
+}
+.ligne{
+  border-bottom: solid 3px black;
+  color: black;
+}
+
+.signature{
+float: right;
+  color:#9e9e9e;
+}
+.gollum-img{
+	border-radius: 50%;
+}
+.card-header{
+  background-color: orangered !important;
+  color: white;
+}
+
+/**************************************************RING************************************/
+
+/**************************************************JOINMORDOR************************************/
+.join{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.join>p{
+  width: 70%;
+  max-height:50%;
+  color:white;
+}
+#join-mordor{
+    background-color:black;
+}
+#join-mordor>h2{
+  color:white;
+}
+/**************************************************JOINMORDOR************************************/
+/*********************************************************FOOTER*****************************************************/
+footer{
+  display: flex !important;;
+  justify-content: space-around !important;
+  flex-wrap: wrap;
+  background-color: orangered;
+  padding: 40px;
+  margin-top:50px;
+}
+  footer>ul{
+  list-style-type: none;
+  line-height: 30px;
+}
+footer a{
+  color:white !important;;
+  text-decoration: none;
+}
+.site{
+  margin-top: 15px;
+  font-size: 18px;
+}
+footer li a:hover{
+  text-decoration: none !important;;
+  color:white;
+}
+}
